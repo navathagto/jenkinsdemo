@@ -14,6 +14,7 @@ public class LoginDAO {
 	
 	public LoginDAO() {
 		database = DBConnection.getdatabase();
+		System.out.println();
 	}
 	
 	public Document retrieveVIS(Visitor visitor) {
